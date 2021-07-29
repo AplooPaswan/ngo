@@ -20,8 +20,28 @@ ul, ol {
   margin: 0px;
   padding: 0px; }
 
+.banner:not(a){
+  filter:blur(5%)
+}
+
+
 li {
   list-style: none; }
+
+.donation{
+  margin-top: 8em !important;
+  background-color: #00B74A !important;
+  min-width: fit-content;
+  padding: 1em 2em;
+  color: white;
+  text-decoration: none;
+  text-decoration-skip: unset;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius:0px ;
+  border-color: red !important;
+}
 
 a {
   text-decoration: none; }
