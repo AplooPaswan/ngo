@@ -864,10 +864,10 @@ ul, ol {
 li {
   list-style: none; 
 }
-
+/*#2368c2 */
 .donation{
   margin-top: 8em !important;
-  background-color: #00B74A !important;
+  background-color:#2368c2 !important;
   min-width: fit-content;
   padding: 1em 2em;
   color: white;
@@ -1081,7 +1081,8 @@ header .nav-items {
   margin-top: -5rem;
   width: 100%; }
   .bg-01 .wrapper {
-    background: #09CC7F;
+    /*#90CC7F */
+    background:#73eabb;
     position: relative;
     padding: 2.5rem 1.875rem;
     display: block;
